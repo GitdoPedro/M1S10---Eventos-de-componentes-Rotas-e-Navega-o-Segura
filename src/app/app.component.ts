@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  botaoTodos(nome: string) {
+     console.log(`Botão ${nome} clicado`);
+   }
+
+  botaoLidos(nome: string) {
+    console.log(`Botão ${nome} clicado`);
+  }
+
+  botaoNaoLidos(nome: string) {
+    console.log(`Botão ${nome} clicado`);
+  }
 }

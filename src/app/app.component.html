@@ -1,6 +1,10 @@
 <ntap-header></ntap-header>
 
-<ntap-filtro> </ntap-filtro>
+<ntap-filtro
+    (botaoTodos)="botaoTodos($event)"
+    (botaoLidos)="botaoLidos($event)"
+    (botaoNaoLidos)="botaoNaoLidos($event)"
+></ntap-filtro>
 
 <ntap-content></ntap-content>
 
