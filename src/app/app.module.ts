@@ -13,7 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 
 const ROUTES: Routes = [
   {
-    path: '/',
+    path: '',
     redirectTo: 'home',
     pathMatch: 'full'
   },
@@ -45,7 +45,7 @@ const ROUTES: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]

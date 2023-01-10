@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  botaoTodos(nome: string) {
+    console.log(`Botão ${nome} clicado`);
+  }
+
+ botaoLidos(nome: string) {
+   console.log(`Botão ${nome} clicado`);
+ }
+
+ botaoNaoLidos(nome: string) {
+   console.log(`Botão ${nome} clicado`);
+ }
+
 }
